@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+/* ----MAIN CONTACTO---- */
+.main-contacto {
+  background-color: darkred; }
+
+.main-contacto h2 {
+  font-size: medium; }
+
+.main-contacto img {
+  height: 150px; }
+
+.main-contacto .h2-1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: center; }
+
+/* ----MAIN ESPECIALIDADES---- */
+.main-especialidades {
+  background-color: #368af8; }
+
+.main-especialidades h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: center; }
+
+.main-especialidades section {
+  padding: 5px;
+  margin-top: 5px;
+  font-size: 20px; }
+
+.main-especialidades span {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.main-especialidades .a-especialidades {
+  font-weight: bold;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.main-especialidades h3 {
+  margin: 0px; }
+
+/* ----MAIN---- */
+.main-inicio .h2-1 {
+  background-color: #ffffff;
+  padding: 400px;
+  background-image: url("../recursos/imagenmedicina4.webp");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 1950px; }
+
+.main-inicio .vih {
+  font-size: 30px;
+  text-decoration: none; }
+
+.main-inicio .bronquiolitis {
+  font-size: 30px;
+  text-decoration: none; }
+
+.main-inicio .video {
+  width: 450px !important; }
+
+.main-inicio .h2-2 {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center; }
+
+@media (max-width: 606px) {
+  .main-inicio .row {
+    display: flex;
+    flex-direction: column; } }
+
+@media (max-width: 1000px) {
+  .main-inicio .h2-1 {
+    padding: 200px; } }
+
+@media (max-width: 560px) {
+  .main-inicio .h2-1 {
+    padding: 100px; } }
+
+/* ----MAIN OTROS CENTROS---- */
+.main-otroscentros {
+  background-color: #573434; }
+
+.main-otroscentros h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: center; }
+
+.main-otroscentros article {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.main-otroscentros section {
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 20px; }
+
+.main-otroscentros span {
+  font-weight: bold;
+  text-decoration: underline; }
+
+@media (max-width: 606px) {
+  .main-otroscentros article {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: auto; } }
+
+/* ----MAIN TURNOS---- */
+.main-turnos {
+  background-color: burlywood; }
+
+.main-turnos h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: center; }
+
+.main-turnos input {
+  text-align: center;
+  padding: 10px;
+  margin: 5px; }
+
+.main-turnos form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* ----HEADER---- */
+.header {
+  background-color: #434444;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.header img {
+  height: 70px; }
+
+.header h1 {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px; }
+
+.header a {
+  color: white;
+  font-size: large;
+  text-decoration: none; }
+
+.header .ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  width: 500px;
+  height: 20px;
+  flex-wrap: wrap; }
+
+@media (max-width: 606px) {
+  .header .ul {
+    display: flex;
+    flex-direction: column;
+    height: auto; } }
+
+/* ----FOOTER---- */
+.footer {
+  background-color: #434444;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.footer img {
+  height: 70px; }
+
+.footer p {
+  color: white;
+  font-size: small;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.footer .p1 {
+  font-size: large;
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.footer .img-2 {
+  height: 30px;
+  padding: 5px; }
+
+.footer .img-3 {
+  height: 30px;
+  padding: 5px; }
+
+.footer .img-4 {
+  height: 30px;
+  padding: 5px; }
+
+a:hover {
+  color: darkolivegreen; }
+
+input:focus {
+  background-color: darkgrey;
+  border-radius: 7px; }

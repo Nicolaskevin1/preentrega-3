@@ -1,0 +1,36 @@
+/* ----MAIN OTROS CENTROS---- */
+
+.main-otroscentros {
+    background-color: rgb(87, 52, 52);
+}
+
+.main-otroscentros h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-otroscentros article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-otroscentros section {
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.main-otroscentros span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (max-width: 606px) {
+    .main-otroscentros article {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+    }
+}

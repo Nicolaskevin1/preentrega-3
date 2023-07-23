@@ -1,0 +1,50 @@
+/* ----MAIN---- */
+
+.main-inicio .h2-1 {
+    background-color: #ffffff;
+    padding: 400px;
+    background-image: url("../recursos/imagenmedicina4.webp");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 1950px;
+}
+
+.main-inicio .vih {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main-inicio .bronquiolitis {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.main-inicio .video {
+    width: 450px !important;
+}
+
+.main-inicio .h2-2 {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 606px) {
+    .main-inicio .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-inicio .h2-1 {
+        padding: 200px;
+    }
+}
+@media (max-width: 560px) {
+    .main-inicio .h2-1 {
+        padding: 100px;
+    }
+}
+

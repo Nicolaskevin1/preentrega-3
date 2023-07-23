@@ -1,0 +1,49 @@
+/* ----FOOTER---- */
+
+.footer {
+    background-color: #434444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer img {
+    height: 70px;
+}
+
+.footer p {
+    color: white;
+    font-size: small;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .p1 {
+    font-size: large;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .img-2 {
+    height: 30px;
+    padding: 5px;
+}
+
+.footer .img-3 {
+    height: 30px;
+    padding: 5px;
+}
+
+.footer .img-4 {
+    height: 30px;
+    padding: 5px;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
+
+input:focus {
+    background-color: darkgrey;
+    border-radius: 7px;
+}

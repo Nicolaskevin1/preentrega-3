@@ -2,11 +2,15 @@
 
 .main-inicio .h2-1 {
     background-color: #ffffff;
-    padding: 400px;
+    padding: 100px;
     background-image: url("../recursos/imagenmedicina4.webp");
     background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 1950px;
+    background-position: center;
+    background-size: 1000px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .main-inicio .vih {
@@ -30,21 +34,9 @@
     justify-content: center;
 }
 
-@media (max-width: 606px) {
+@media (max-width: 500px) {
     .main-inicio .row {
         display: flex;
         flex-direction: column;
     }
 }
-
-@media (max-width: 1000px) {
-    .main-inicio .h2-1 {
-        padding: 200px;
-    }
-}
-@media (max-width: 560px) {
-    .main-inicio .h2-1 {
-        padding: 100px;
-    }
-}
-

@@ -5,10 +5,15 @@
 
 /* ----MAIN CONTACTO---- */
 .main-contacto {
-  background-color: darkred; }
+  background-image: linear-gradient(to left, #4d702d, #723453);
+  min-height: 71vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
 
-.main-contacto h2 {
-  font-size: medium; }
+.main-contacto .calle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .main-contacto img {
   height: 150px; }
@@ -21,7 +26,7 @@
 
 /* ----MAIN ESPECIALIDADES---- */
 .main-especialidades {
-  background-color: #368af8; }
+  background-image: linear-gradient(to left, #0653aa, #502fa8); }
 
 .main-especialidades h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -49,11 +54,14 @@
 /* ----MAIN---- */
 .main-inicio .h2-1 {
   background-color: #ffffff;
-  padding: 400px;
+  padding: 100px;
   background-image: url("../recursos/imagenmedicina4.webp");
   background-repeat: no-repeat;
-  background-position: cover;
-  background-size: 1950px; }
+  background-position: center;
+  background-size: 1000px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center; }
 
 .main-inicio .vih {
   font-size: 30px;
@@ -72,22 +80,14 @@
   display: flex;
   justify-content: center; }
 
-@media (max-width: 606px) {
+@media (max-width: 500px) {
   .main-inicio .row {
     display: flex;
     flex-direction: column; } }
 
-@media (max-width: 1000px) {
-  .main-inicio .h2-1 {
-    padding: 200px; } }
-
-@media (max-width: 560px) {
-  .main-inicio .h2-1 {
-    padding: 100px; } }
-
 /* ----MAIN OTROS CENTROS---- */
 .main-otroscentros {
-  background-color: #573434; }
+  background-image: linear-gradient(to left, #33615b, #554914); }
 
 .main-otroscentros h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -108,7 +108,7 @@
   font-weight: bold;
   text-decoration: underline; }
 
-@media (max-width: 606px) {
+@media (max-width: 490px) {
   .main-otroscentros article {
     display: grid;
     grid-template-columns: 1fr;
@@ -116,7 +116,8 @@
 
 /* ----MAIN TURNOS---- */
 .main-turnos {
-  background-color: burlywood; }
+  background-image: linear-gradient(to left, #6f8606, #3346b3);
+  min-height: 71vh; }
 
 .main-turnos h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -129,6 +130,11 @@
   padding: 10px;
   margin: 5px; }
 
+.main-turnos section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .main-turnos form {
   display: flex;
   flex-direction: column;
@@ -136,7 +142,7 @@
 
 /* ----HEADER---- */
 .header {
-  background-color: #434444;
+  background-image: linear-gradient(to left, #434444, #3f2f2c);
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
@@ -165,7 +171,7 @@
   height: 20px;
   flex-wrap: wrap; }
 
-@media (max-width: 606px) {
+@media (max-width: 490px) {
   .header .ul {
     display: flex;
     flex-direction: column;
@@ -192,7 +198,7 @@
   background-color: white; }
 
 .footer {
-  background-color: #434444;
+  background-image: linear-gradient(to left, #434444, #3f2f2c);
   display: flex;
   justify-content: space-between;
   align-items: center; }

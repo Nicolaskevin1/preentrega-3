@@ -1,7 +1,7 @@
 /* ----MAIN OTROS CENTROS---- */
 
 .main-otroscentros {
-    background-color: rgb(87, 52, 52);
+    background-image: linear-gradient(to left, #33615b, rgb(85, 73, 20));
 }
 
 .main-otroscentros h2 {
@@ -27,7 +27,7 @@
     text-decoration: underline;
 }
 
-@media (max-width: 606px) {
+@media (max-width: 490px) {
     .main-otroscentros article {
         display: grid;
         grid-template-columns: 1fr;

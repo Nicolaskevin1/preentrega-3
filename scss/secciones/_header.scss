@@ -1,6 +1,6 @@
 /* ----HEADER---- */
 .header {
-    background-color: #434444;
+    background-image: linear-gradient(to left, #434444, #3f2f2c);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@
     flex-wrap: wrap;
 }
 
-@media (max-width: 606px) {
+@media (max-width: 490px) {
     .header .ul {
         display: flex;
         flex-direction: column;
